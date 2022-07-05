@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="af06671e-c457-422f-9d99-a218dfd2dc5c" name="Changes" comment="Covert from java to groovy.">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/groovy_4_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-4.0.2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-4.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-ant-4.0.2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-ant-4.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-astbuilder-4.0.2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-astbuilder-4.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-cli-commons-4.0.2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-cli-commons-4.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-cli-picocli-4.0.2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-cli-picocli-4.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-console-4.0.2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-console-4.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-contracts-4.0.2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-contracts-4.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-datetime-4.0.2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-datetime-4.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-dateutil-4.0.2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-dateutil-4.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-docgenerator-4.0.2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-docgenerator-4.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-ginq-4.0.2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-ginq-4.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-groovydoc-4.0.2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-groovydoc-4.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-groovysh-4.0.2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-groovysh-4.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-jmx-4.0.2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-jmx-4.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-json-4.0.2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-json-4.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-jsr223-4.0.2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-jsr223-4.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-macro-4.0.2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-macro-4.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-macro-library-4.0.2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-macro-library-4.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-nio-4.0.2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-nio-4.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-servlet-4.0.2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-servlet-4.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-sql-4.0.2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-sql-4.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-swing-4.0.2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-swing-4.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-templates-4.0.2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-templates-4.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-test-4.0.2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-test-4.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-test-junit5-4.0.2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-test-junit5-4.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-testng-4.0.2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-testng-4.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-toml-4.0.2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-toml-4.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-typecheckers-4.0.2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-typecheckers-4.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-xml-4.0.2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-xml-4.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/petShopGroovy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/petShopGroovy/Data.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/petShopGroovy/DataTasksScript.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/petShopGroovy/MainScript.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/petShopGroovy/Pet.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/petShopGroovy/PetTest.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/petShopGroovy/PetTypeEnum.groovy" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BXiF2GN1C2nsebXHsu7AMhuCag" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "openjdk-18",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.PetTest">
+    <configuration name="DataTasksScript" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+      <module name="petShopGroovy" />
+      <setting name="path" value="file://$PROJECT_DIR$/src/petShopGroovy/DataTasksScript.groovy" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$/src/petShopGroovy" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainScript" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+      <module name="petShopGroovy" />
+      <setting name="path" value="file://$PROJECT_DIR$/src/petShopGroovy/MainScript.groovy" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$/src/petShopGroovy" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="petShopGroovy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="petShopGroovy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="petShopGroovy" />
+      <option name="MAIN_CLASS_NAME" value="petShopGroovy.PetTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PetTest" />
+        <item itemvalue="Groovy.MainScript" />
+        <item itemvalue="Groovy.DataTasksScript" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af06671e-c457-422f-9d99-a218dfd2dc5c" name="Changes" comment="" />
+      <created>1657058728507</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657058728507</updated>
+      <workItem from="1657058729894" duration="1200000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Covert from java to groovy." />
+    <option name="LAST_COMMIT_MESSAGE" value="Covert from java to groovy." />
+  </component>
+</project>
