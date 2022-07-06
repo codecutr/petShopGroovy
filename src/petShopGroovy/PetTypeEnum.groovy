@@ -21,8 +21,4 @@ enum PetTypeEnum {
         this.id = id
         this.desc = desc
     }
-
-    static getPetTypeEnum( id ) {
-        map[id]
-    }
 }

@@ -8,8 +8,7 @@ cat.setName("Garfield")
 
 println("Name has been changed to " + cat.getName())
 
-//Data data = new Data("PetShop")
-Data data = new Data()
+DataSim data = new DataSim()
 
 data.insert("Pet", cat)
 

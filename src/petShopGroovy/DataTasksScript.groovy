@@ -6,10 +6,10 @@ package petShopGroovy
  */
 
 class DataTasks {
-    Data db  //Create data object
+    DataSim db  //Create data object
 
     def savePetShop = { ->
-        db = new Data()
+        db = new DataSim()
         //a.	Create three cats.
         Pet catA = new Pet(name: "Alfalfa", petType: "CAT")
         Pet catB = new Pet(name: "Tater Tot", petType: "CAT")
@@ -42,7 +42,7 @@ class DataTasks {
 }
 
 //Initialize Data object
-db = new Data()
+db = new DataSim()
 
 //Initialize cat and dog objects with names and save to the database.
 cat1 = new Pet(name:"Kit-Kat", petType: "CAT")

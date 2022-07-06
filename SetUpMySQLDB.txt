@@ -1,0 +1,5 @@
+CREATE DATABASE petShop;
+USE petShop;
+CREATE TABLE `Pet` (`ID` INT NOT NULL AUTO_INCREMENT , `Name` VARCHAR(255) NOT NULL , `PetType` VARCHAR(255) NOT NULL , `Age` INT NOT NULL , `FavoriteFood` VARCHAR(255) , PRIMARY KEY (`ID`));
+CREATE USER 'megfryling'@'localhost' IDENTIFIED BY 'skittles';
+GRANT ALL PRIVILEGES ON petShop. * TO 'megfryling'@'localhost';
